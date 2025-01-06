@@ -23,10 +23,17 @@
 <main style="height: 100%; overflow-y: auto; background-color: rgba(54,11,0,0.8); color: white; width: 100vw; max-width: 600px; margin: 0 auto;">
     <div style="padding: 1rem;">
         <h1 class="rye-regular" style="text-align: center;">
-            Voor-inshcijving Stafweekend 22/23 maart 2025
+            Inschrijven Stafweekend 22/23 maart 2025
         </h1>
-        <p style="text-align: center; margin-bottom: 3rem;">
-            Geopend t/m 4 januari 2025. Als er dan minder dan 20 aanmeldingen zijn, wordt het weekend verplaatst naar het najaar.
+        <p style="margin-bottom: 0.5rem;">
+            Geopend t/m 12 januari 2025. Als er dan minder dan 20 aanmeldingen zijn, wordt het weekend verplaatst naar het najaar.
+        </p>
+        <p style="margin-bottom: 0.5rem;">
+            De kosten zullen maximaal 40 euro per persoon bedragen (afhankelijk van de bijdrage vanuit de groep en het aantal deelnemers) exclusief drank.<br/>
+            Als de begroting is opgemaakt, krijg je een mail met het exacte bedrag en de betaalgegevens.
+        </p>
+        <p style="margin-bottom: 3rem;">
+            Het programma duurt van zaterdag 22 maart 14:00 tot zondag 23 maart 14:00, met een overnachting in ons eigen Jeugdhuis.
         </p>
         <form id="FORM" method="POST" action="https://script.google.com/macros/s/AKfycbxuRVOnuuk6O_xiutnKILkISb1J_z2ILPaYM1OMZpE9vHqnQ5dceE2ZvzGbEAE9otZG/exec">
             <label for="NAAM" style="display: block; font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">
@@ -49,6 +56,9 @@
                 <option value="Explorers">
                     Explorers
                 </option>
+                <option value="Pivos">
+                    Pivos
+                </option>
                 <option value="Plusscouts/bestuur">
                     Plusscouts/bestuur
                 </option>
@@ -56,7 +66,15 @@
             <label for="E-MAILADRES" style="display: block; font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">
                 E-mailadres
             </label>
-            <input type="email" id="E-MAILADRES" name="E-mailadres" required style="border: none; padding: 0.2rem; font-size: 1.2rem; width: 100%; margin-bottom: 3rem;  border-radius: 0.2rem;">
+            <input type="email" id="E-MAILADRES" name="E-mailadres" required style="border: none; padding: 0.2rem; font-size: 1.2rem; width: 100%; margin-bottom: 0.5rem;  border-radius: 0.2rem;">
+            <label for="TELEFOONNUMMER" style="display: block; font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">
+                Telefoonnummer (voor de groepsapp)
+            </label>
+            <input type="tel" id="TELEFOONNUMMER" name="Telefoonnummer" required style="border: none; padding: 0.2rem; font-size: 1.2rem; width: 100%; margin-bottom: 0.5rem;  border-radius: 0.2rem;">
+            <label for="DIEETWENSEN" style="display: block; font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem;">
+                Dieetwensen/opmerkingen
+            </label>
+            <textarea id="DIEETWENSEN" name="Dieetwensen" style="border: none; padding: 0.2rem; font-size: 1.2rem; width: 100%; margin-bottom: 3rem;  border-radius: 0.2rem; font-family: inherit;"></textarea>
             <button type="submit" style="font-size: 1.2rem; background-color: white; padding: 1rem 2rem; border-radius: 0.5rem; border: none;" class="rye-regular">
                 Inschrijven
             </button>
